@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NERVA Download Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('background_image.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.8);
+            animation: fade-in 1s ease;
+        }
+
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .animated-text {
+            font-size: 72px;
+            font-weight: bold;
+            color: #ff;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .info {
+            font-size: 20px;
+            margin-top: 40px;
+            color: #333;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 30px;
+            font-size: 24px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+
+        .github-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-size: 24px;
+            color: #fff;
+            background-color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .github-button:hover {
+            background-color: #000;
+        }
+
+        .makers {
+            margin-top: 60px;
+            color: #000;
+            font-size: 48px;
+            font-family: 'Roboto', Arial, sans-serif;
+            text-align: center;
+        }
+
+        .pictures {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pictures img {
+            width: 200px;
+            height: 200px;
+            margin: 0 10px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        // No JavaScript code required for the animation
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="animated-text">NERVA</h1>
+        <div class="info">
+            <p>Welcome to the NERVA Download Page!</p>
+            <p>Get the latest version of NERVA below:</p>
+        </div>
+        <a href="download_link" class="download-button">Download NERVA</a>
+        <a href="https://github.com" class="github-button">GitHub</a>
+    </div>
+
+    <div class="makers">
+        <p style="color: #000; font-size: 48px; font-family: 'Roboto', Arial, sans-serif; text-align: center;">credits</p>
+        <div class="pictures">
+            <img src="picture2.jpg" alt="Picture 1">
+        </div>
+    </div>
+</body>
+</html>
