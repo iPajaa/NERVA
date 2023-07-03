@@ -98,6 +98,27 @@
             text-align: center;
         }
 
+        .developers {
+            margin-top: 20px;
+            font-size: 48px;
+            color: #ff0000;
+            font-weight: bold;
+            animation: developing 2s infinite;
+        }
+
+        @keyframes developing {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+                transform: translateX(20px);
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
         .pictures {
             display: flex;
             justify-content: center;
@@ -122,12 +143,12 @@
             <p>Welcome to the NERVA Download Page!</p>
             <p>Get the latest version of NERVA below:</p>
         </div>
-        <a href="https://github.com/MorriCf/NervaMenu/releases/tag/v1.0.0" class="download-button">Download NERVA</a>
-        <a href="https://github.com/MorriCf" class="github-button">GitHub</a>
+        <a href="download_link" class="download-button">Download NERVA</a>
+        <a href="https://github.com" class="github-button">GitHub</a>
     </div>
 
     <div class="makers">
-        <p style="color: #000; font-size: 48px; font-family: 'Roboto', Arial, sans-serif; text-align: center;">credits</p>
+        <p class="developers">DEVELOPER</p>
         <div class="pictures">
             <img src="picture2.jpg" alt="Picture 1">
         </div>
